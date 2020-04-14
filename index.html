@@ -8,16 +8,16 @@
         body {
             background-color: #f8f8f8;
             text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
             main{
                 display: inline-block;
-                width: 1920px;
-                margin-top: 20px;
+                width: 900px;
+                margin-top: 30px;
                 text-align: left;
             }
                 main > header {
-                    display: inline-block;
-                    width: 100%;
+                   
                     float: left;
                 }
                     main > header > img {
@@ -31,14 +31,22 @@
                     }
                         main > header > nav > a {
                             display: inline-block;
-                            padding: 30px;
-                            font-size: 25px;
+                            padding-right: 15px;
+                            padding-left: 15px;
+                            padding-right: 15px;
+                            padding-top: 5px;
+                            padding-bottom: 5px;
+                            border-radius: 17px;
+                            font-size: 20px;
+                            line-height: 20px;
                             text-decoration: none;
+                            text-transform: capitalize;
                             color: #C6C6C6;
-                        }
+                            
+                                
+                            }
                 main > section {
-                    display: inline-block;
-                    width: 100%;
+                  
                     float: left;
                     margin-top: 60px;
                 }
@@ -51,18 +59,16 @@
 
                     }
                         main > section > div > h1 {
-                          display: inline-block;
-                          width: 100%;
-                          font-size: 200px;
+                         
+                          font-size: 100px;
                           margin: 0px;
                           color: #9F9F9F;
                             
                         }
                         main > section > div > p {
-                            display: inline-block;
-                            width: 100%;
+                            
                             margin: 0px;
-                            font-size: 50px;
+                            font-size: 25px;
                             word-spacing: 10px;
                             color: #BFBFBF;
                         }
@@ -71,24 +77,36 @@
                         width: 50%;
                         float: right;
                     }
+        .visasPlotis{
+                display: inline-block;
+                width: 100%;
+        
+        }
+        .mygtukas{
+            background-color: #fff;
+            text-transform: uppercase;
+            background-color: #f8f8f8;
+            border: 3px solid;
+
+        }
     </style>
 </head>
 <body>
     <main>
-        <header>
+        <header class="visasPlotis">
             <img src="./img/Logo.png" alt="logo">
             <nav>
                 <a href="#">Home</a>
                 <a href="#">Tracks</a>
                 <a href="#">Library</a>
                 <a href="#">Community</a>
-                <a href="#" style="border: 3px solid; border-radius: 25px;padding: 10px;">Sign in</a>
+                <a href="#" class="mygtukas">Sign in</a>
             </nav>
         </header>
-        <section>
+        <section class="visasPlotis">
             <div>
-                <h1>404</h1>
-                <p>The link is broken or the page has been moved.</p>
+                <h1 class="visasPlotis">404</h1>
+                <p class="visasPlotis">The link is broken or the page has been moved.</p>
             </div>
             <img src="./img/Mergaite.png" alt="Mergaites">
         </section>
